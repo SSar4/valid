@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "data valid",
     "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
     "scripts": {
         "rollup:help": "rollup --help",
         "prebuild": "rimraf dist",
