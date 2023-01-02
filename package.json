@@ -9,6 +9,7 @@
         "prebuild": "rimraf dist",
         "test": "jest",
         "build": "rollup -c",
+        "mypublsih": "npm run rollup -c && npm publish",
         "start": "node ./dist/cjs/index.js",
         "dev": "node ./src/index.js",
         "lint:fix": "eslint --fix --ext .js",
