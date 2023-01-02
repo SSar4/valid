@@ -1,6 +1,6 @@
 {
     "name": "validmm",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "data valid",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
