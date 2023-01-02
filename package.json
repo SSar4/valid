@@ -1,26 +1,24 @@
 {
     "name": "validmm",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "data valid",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "files": [
         "dist",
-        "README.md"
+        "README.md",
+        "LICENSE",
+        "package-lock.json"
     ],
     "scripts": {
         "rollup:help": "rollup --help",
         "prebuild": "rimraf dist",
         "test": "jest",
         "build": "rollup -c",
-        "mypublsih": "npm run rollup -c && npm publish",
         "start": "node ./dist/cjs/index.js",
         "dev": "node ./src/index.js",
         "lint:fix": "eslint --fix --ext .js",
-        "prepare": "husky install",
-        "precompress": "rollup -c",
-        "compress": "rollup -c",
-        "postcompress": "{{ executes AFTER `compress` script }}"
+        "prepare": "husky install"
     },
     "keywords": [
         "data",
