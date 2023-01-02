@@ -1,9 +1,13 @@
 {
     "name": "validmm",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "data valid",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
+    "files": [
+        "dist",
+        "README.md"
+    ],
     "scripts": {
         "rollup:help": "rollup --help",
         "prebuild": "rimraf dist",
